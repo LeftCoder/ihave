@@ -21,5 +21,9 @@
     "astro-icon": "^0.8.0",
     "sharp": "^0.31.2",
     "tailwindcss": "^3.2.2"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^1.2.1",
+    "vue": "^3.2.45"
   }
 }

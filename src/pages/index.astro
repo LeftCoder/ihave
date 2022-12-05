@@ -1,24 +1,22 @@
 ---
-import { SITE } from '~/config.mjs';
-import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import { SITE } from '~/config.mjs'
+import Layout from '~/layouts/PageLayout.astro'
+import Hero from '~/components/widgets/Hero.astro'
+import Steps from '~/components/widgets/Steps.astro'
+import FAQs from '~/components/widgets/FAQs.astro'
+import CallToAction from '~/components/widgets/CallToAction.astro'
+import Offer from '~/components/widgets/Offer.astro'
 
 const meta = {
-	title: SITE.title,
-	description: SITE.description
-};
+  title: SITE.title,
+  description: SITE.description,
+}
 ---
 
 <Layout {meta}>
-	<Hero />
-	<Features />
-	<Steps />
-	<FAQs />
-	<Stats />
-	<CallToAction />
+  <Hero />
+  <Offer />
+  <Steps />
+  <FAQs />
+  <CallToAction />
 </Layout>

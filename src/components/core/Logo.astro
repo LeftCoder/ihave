@@ -1,4 +1,10 @@
 ---
-
+import Picture from '~/components/core/Picture.astro'
 ---
-<div>iHave Serwis</div>
+
+<Picture
+  src={import('~/assets/images/logo.png')}
+  widths={[145, 41]}
+  alt="Logo"
+  aspectRatio="145:41"
+/>

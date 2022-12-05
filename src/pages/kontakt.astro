@@ -1,0 +1,82 @@
+---
+import Layout from '~/layouts/PageLayout.astro'
+import { SITE } from '~/config.mjs'
+import GoggoleMap from '~/components/widgets/GoggoleMap.astro'
+
+const meta = {
+  title: `${SITE.name} | Nasz cennik`,
+  description: 'Tutaj znajduję się nasz cennik',
+}
+---
+
+<Layout {meta}>
+  <section>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
+        <div class="my-12">
+          <h1
+            class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading"
+          >
+            Kontakt
+          </h1>
+        </div>
+        <div class="grid grid-cols-12">
+          <div class="grid grid-cols-12 gap-8 col-span-12 lg:col-span-6">
+            <div class="col-span-12 lg:col-span-6">
+              <h2 class="font-semibold text-lg mb-4">Godziny otwarcia</h2>
+              <ul>
+                <li class="flex justify-between">
+                  <span class="font-semibold">poniedziałek:</span> 10:00-17:00
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">wtorek:</span> 10:00-17:00
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">środa:</span> 10:00-17:00
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">czwartek:</span> 10:00-17:00
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">piątek:</span> 10:00-17:00
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">sobota:</span> nieczynne
+                </li>
+                <li class="flex justify-between">
+                  <span class="font-semibold">niedziela:</span> nieczynne
+                </li>
+              </ul>
+            </div>
+            <div class="col-span-12 lg:col-span-6 h-full">
+              <h2 class="font-semibold text-lg mb-4">Dane kontaktowe</h2>
+              <div class="flex flex-col">
+                <div>
+                  <p>Paweł Medhat</p>
+                  <p>ul. Obornicka 309</p>
+                  <p>60-689 Poznań</p>
+                  <p>NIP: 8771446850</p>
+                </div>
+                <div>
+                  <a
+                    class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+                    href="mailto:serwis@ihave.gsm.pl"
+                    ><p>m: serwis@ihave.gsm.pl</p>
+                  </a>
+                  <a
+                    class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+                    href="tel:+48222333444"
+                    ><p>t: +48 222 333 444</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 lg:col-span-6">
+            <GoggoleMap />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

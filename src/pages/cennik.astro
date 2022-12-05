@@ -1,0 +1,20 @@
+---
+import Table from '~/components/widgets/Table.vue'
+import Layout from '~/layouts/PageLayout.astro'
+import { SITE } from '~/config.mjs'
+
+const meta = {
+  title: `${SITE.name} | Nasz cennik`,
+  description: 'Tutaj znajduję się nasz cennik',
+}
+---
+
+<Layout {meta}>
+  <section>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
+        <Table client:visible />
+      </div>
+    </div>
+  </section>
+</Layout>

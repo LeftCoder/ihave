@@ -1,13 +1,14 @@
 export const SITE = {
-	name: 'AstroWind',
+  name: 'iHave Serwis',
 
-	origin: 'http://127.0.0.1:3000',
-	basePathname: '/',
-	trailingSlash: false,
+  origin: 'http://127.0.0.1:3000',
+  basePathname: '/',
+  trailingSlash: false,
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+  title: 'iHave Serwis | Naprawa elektoniki w Poznaniu',
+  description:
+    'Zajmujemy się naprawą telefonów oraz laptopów z Poznania i okolicy.',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: '',
-};
+  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+  googleSiteVerificationId: '',
+}
