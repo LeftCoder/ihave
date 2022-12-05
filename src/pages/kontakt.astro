@@ -4,8 +4,9 @@ import { SITE } from '~/config.mjs'
 import GoggoleMap from '~/components/widgets/GoggoleMap.astro'
 
 const meta = {
-  title: `${SITE.name} | Nasz cennik`,
-  description: 'Tutaj znajduję się nasz cennik',
+  title: `${SITE.name} | Kontakt`,
+  description:
+    'Tutaj znajdziesz wszystkie niezbędne informacje do kontaktu z naszym serwisem',
 }
 ---
 
@@ -13,16 +14,16 @@ const meta = {
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
-        <div class="my-12">
+        <div>
           <h1
             class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading"
           >
             Kontakt
           </h1>
         </div>
-        <div class="grid grid-cols-12">
-          <div class="grid grid-cols-12 gap-8 col-span-12 lg:col-span-6">
-            <div class="col-span-12 lg:col-span-6">
+        <div>
+          <div class="flex flex-col md:flex-row gap-16 mb-16">
+            <div class="w-full md:w-1/4">
               <h2 class="font-semibold text-lg mb-4">Godziny otwarcia</h2>
               <ul>
                 <li class="flex justify-between">
@@ -48,7 +49,7 @@ const meta = {
                 </li>
               </ul>
             </div>
-            <div class="col-span-12 lg:col-span-6 h-full">
+            <div>
               <h2 class="font-semibold text-lg mb-4">Dane kontaktowe</h2>
               <div class="flex flex-col">
                 <div>
@@ -57,6 +58,7 @@ const meta = {
                   <p>60-689 Poznań</p>
                   <p>NIP: 8771446850</p>
                 </div>
+                <p>&nbsp;</p>
                 <div>
                   <a
                     class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
@@ -66,13 +68,13 @@ const meta = {
                   <a
                     class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
                     href="tel:+48222333444"
-                    ><p>t: +48 222 333 444</p>
+                    ><p>t: +48 576 820 728</p>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-span-12 lg:col-span-6">
+          <div>
             <GoggoleMap />
           </div>
         </div>
