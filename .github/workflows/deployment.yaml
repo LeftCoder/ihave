@@ -1,5 +1,8 @@
-on: push
-name: 🚀 Deploy website on push
+name: 🚀 Deploy
+on:
+  push:
+    branches:
+      - main
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -12,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Use Node.js 16
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '16'
 
