@@ -31,4 +31,3 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /webspace/httpdocs/ihave.gsm.pl/
