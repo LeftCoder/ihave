@@ -12,7 +12,7 @@ jobs:
         uses: styfle/cancel-workflow-action@0.11.0
 
       - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js 16
         uses: actions/setup-node@v3
@@ -27,7 +27,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: ftp.d1051483-19461.wuti.pl
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
