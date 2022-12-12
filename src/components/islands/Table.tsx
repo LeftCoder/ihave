@@ -1,4 +1,4 @@
-import { FunctionalComponent } from 'preact'
+import type { FunctionalComponent } from 'preact'
 import { useState } from 'preact/hooks'
 import TableRows from '~/cennik.json'
 
