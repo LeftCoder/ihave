@@ -24,9 +24,7 @@ try {
       formats,
       aspectRatio,
     }))
-} catch (e) {
-  // continue regardless of error
-}
+} catch (e) {}
 
 const { image = {}, sources = [] } = picture || {}
 ---
@@ -34,7 +32,7 @@ const { image = {}, sources = [] } = picture || {}
 {
   src && image?.src && (
     <picture {...attrs}>
-      {sources.map((attrs) => (
+      {sources.map((attrs: { type: string; srcset: string }) => (
         <source {...attrs} sizes={sizes} />
       ))}
       <img {...image} {loading} {decoding} {alt} class={className} />
