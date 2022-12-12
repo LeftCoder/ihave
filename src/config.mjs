@@ -5,7 +5,7 @@ export const SITE = {
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'iHave Serwis | Naprawa elektoniki w Poznaniu',
+  title: 'iHave Serwis | Naprawa elektroniki w Poznaniu',
   description:
     'Zajmujemy się naprawą telefonów oraz laptopów z Poznania i okolicy.',
 
