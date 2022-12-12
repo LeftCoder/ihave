@@ -1,9 +1,14 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2021"],
+    "strict": true,
     "types": [
       "@astrojs/image/client"
     ],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
