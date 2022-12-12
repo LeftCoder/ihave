@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { computed } from '@vue/reactivity'
-import { table } from 'console'
 import { onMounted, ref } from 'vue'
 
 interface TableData {
@@ -19,10 +18,10 @@ const filteredData = computed(() => {
     )
   })
 })
+
 onMounted(async () => {
-  await import('~/cennik.json').then(
-    (response) => (tableData.value = response.default)
-  )
+  const data = (await import('~/cennik.json')).default
+  tableData.value = data
 })
 </script>
 
