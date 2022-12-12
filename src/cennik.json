@@ -1,745 +1,894 @@
 [
   {
+    "id": 1,
     "model": "iPhone 12 Pro Max",
     "desc": "wymiana tylnego panelu",
     "price": 700
   },
   {
+    "id": 2,
     "model": "iPhone 12 Pro",
     "desc": "wymiana tylnego panelu",
     "price": 600
   },
   {
+    "id": 3,
     "model": "iPhone 11 Pro Max",
     "desc": "wymiana tylnego panelu",
     "price": 500
   },
   {
+    "id": 4,
     "model": "iPhone 11 Pro",
     "desc": "wymiana LCD oryginał",
     "price": 850
   },
   {
+    "id": 5,
     "model": "iPhone 11 Pro",
     "desc": "wymiana LCD zamiennik",
     "price": 450
   },
   {
+    "id": 6,
     "model": "iPhone 11 Pro",
     "desc": "wymiana baterii",
     "price": 200
   },
   {
+    "id": 7,
     "model": "iPhone 11 Pro",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 250
   },
   {
+    "id": 8,
     "model": "iPhone 11 Pro",
     "desc": "wymiana aparatu tylnego",
     "price": 580
   },
   {
+    "id": 9,
     "model": "iPhone 11 Pro",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 300
   },
   {
+    "id": 10,
     "model": "iPhone 11 Pro",
     "desc": "wymiana tylnego panelu",
     "price": 500
   },
   {
+    "id": 11,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana LCD oryginał",
     "price": 400
   },
   {
+    "id": 12,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana LCD zamiennik",
     "price": 250
   },
   {
+    "id": 13,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana baterii",
     "price": 180
   },
   {
+    "id": 14,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 200
   },
   {
+    "id": 15,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana aparatu tylnego",
     "price": 450
   },
   {
+    "id": 16,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 200
   },
   {
+    "id": 17,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana głośnika rozmów",
     "price": 100
   },
   {
+    "id": 18,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 180
   },
   {
+    "id": 19,
     "model": "iPhone SE 2020/2022",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 20,
     "model": "iPhone 11",
     "desc": "wymiana LCD oryginał",
     "price": 650
   },
   {
+    "id": 21,
     "model": "iPhone 11",
     "desc": "wymiana LCD zamiennik",
     "price": 450
   },
   {
+    "id": 22,
     "model": "iPhone 11",
     "desc": "wymiana baterii",
     "price": 180
   },
   {
+    "id": 23,
     "model": "iPhone 11",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 250
   },
   {
+    "id": 24,
     "model": "iPhone 11",
     "desc": "wymiana aparatu tylnego",
     "price": 450
   },
   {
+    "id": 25,
     "model": "iPhone 11",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 300
   },
   {
+    "id": 26,
     "model": "iPhone 11",
     "desc": "wymiana tylnego panelu",
     "price": 500
   },
   {
+    "id": 27,
     "model": "iPhone X",
     "desc": "wymiana LCD oryginał",
     "price": 750
   },
   {
+    "id": 28,
     "model": "iPhone X",
     "desc": "wymiana LCD zamiennik",
     "price": 500
   },
   {
+    "id": 29,
     "model": "iPhone X",
     "desc": "wymiana baterii",
     "price": 180
   },
   {
+    "id": 30,
     "model": "iPhone X",
     "desc": "wymiana aparatu tylnego",
     "price": 500
   },
   {
+    "id": 31,
     "model": "iPhone X",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 200
   },
   {
+    "id": 32,
     "model": "iPhone X",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 200
   },
   {
+    "id": 33,
     "model": "iPhone X",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 34,
     "model": "iPhone Xs",
     "desc": "wymiana LCD oryginał",
     "price": 800
   },
   {
+    "id": 35,
     "model": "iPhone Xs",
     "desc": "wymiana LCD zamiennik",
     "price": 550
   },
   {
+    "id": 36,
     "model": "iPhone Xs",
     "desc": "wymiana baterii",
     "price": 200
   },
   {
+    "id": 37,
     "model": "iPhone Xs",
     "desc": "wymiana aparatu tylnego",
     "price": 500
   },
   {
+    "id": 38,
     "model": "iPhone Xs",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 250
   },
   {
+    "id": 39,
     "model": "iPhone Xs",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 200
   },
   {
+    "id": 40,
     "model": "iPhone Xs",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 41,
     "model": "iPhone Xr",
     "desc": "wymiana LCD oryginał",
     "price": 700
   },
   {
+    "id": 42,
     "model": "iPhone Xr",
     "desc": "wymiana LCD zamiennik",
     "price": 450
   },
   {
+    "id": 43,
     "model": "iPhone Xr",
     "desc": "wymiana baterii",
     "price": 180
   },
   {
+    "id": 44,
     "model": "iPhone Xr",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 250
   },
   {
+    "id": 45,
     "model": "iPhone Xr",
     "desc": "wymiana aparatu tylnego",
     "price": 450
   },
   {
+    "id": 46,
     "model": "iPhone Xr",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 200
   },
   {
+    "id": 47,
     "model": "iPhone Xr",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 48,
     "model": "iPhone Xs MAX",
     "desc": "wymiana LCD oryginał",
     "price": 900
   },
   {
+    "id": 49,
     "model": "iPhone Xs MAX",
     "desc": "wymiana LCD zamiennik",
     "price": 600
   },
   {
+    "id": 50,
     "model": "iPhone Xs MAX",
     "desc": "wymiana baterii",
     "price": 200
   },
   {
+    "id": 51,
     "model": "iPhone Xs MAX",
     "desc": "wymiana aparatu tylnego",
     "price": 550
   },
   {
+    "id": 52,
     "model": "iPhone Xs MAX",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 200
   },
   {
+    "id": 53,
     "model": "iPhone Xs MAX",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 54,
     "model": "iPhone Xs MAX",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 250
   },
   {
+    "id": 55,
     "model": "iPhone 5s",
     "desc": "wymiana LCD oryginał",
     "price": 220
   },
   {
+    "id": 56,
     "model": "iPhone 5s",
     "desc": "wymiana LCD zamiennik",
     "price": 160
   },
   {
+    "id": 57,
     "model": "iPhone 5s",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 100
   },
   {
+    "id": 58,
     "model": "iPhone 5s",
     "desc": "wymiana aparatu tylnego",
     "price": 140
   },
   {
+    "id": 59,
     "model": "iPhone 5s",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 80
   },
   {
+    "id": 60,
     "model": "iPhone 5s",
     "desc": "wymiana głośnika rozmów",
     "price": 70
   },
   {
+    "id": 61,
     "model": "iPhone 5s",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 100
   },
   {
+    "id": 62,
     "model": "iPhone 5s",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 120
   },
   {
+    "id": 63,
     "model": "iPhone 5s",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 64,
     "model": "iPhone 5s",
     "desc": "wymiana baterii",
     "price": 120
   },
   {
+    "id": 65,
     "model": "iPhone SE",
     "desc": "wymiana LCD oryginał",
     "price": 220
   },
   {
+    "id": 66,
     "model": "iPhone SE",
     "desc": "wymiana LCD zamiennik",
     "price": 160
   },
   {
+    "id": 67,
     "model": "iPhone SE",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 120
   },
   {
+    "id": 68,
     "model": "iPhone SE",
     "desc": "wymiana aparatu tylnego",
     "price": 150
   },
   {
+    "id": 69,
     "model": "iPhone SE",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 80
   },
   {
+    "id": 70,
     "model": "iPhone SE",
     "desc": "wymiana głośnika rozmów",
     "price": 70
   },
   {
+    "id": 71,
     "model": "iPhone SE",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 100
   },
   {
+    "id": 72,
     "model": "iPhone SE",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 150
   },
   {
+    "id": 73,
     "model": "iPhone SE",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 74,
     "model": "iPhone SE",
     "desc": "wymiana baterii",
     "price": 120
   },
   {
+    "id": 75,
     "model": "iPhone 6",
     "desc": "wymiana LCD oryginał",
     "price": 230
   },
   {
+    "id": 76,
     "model": "iPhone 6",
     "desc": "wymiana LCD zamiennik",
     "price": 180
   },
   {
+    "id": 77,
     "model": "iPhone 6",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 120
   },
   {
+    "id": 78,
     "model": "iPhone 6",
     "desc": "wymiana aparatu tylnego",
     "price": 150
   },
   {
+    "id": 79,
     "model": "iPhone 6",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 100
   },
   {
+    "id": 80,
     "model": "iPhone 6",
     "desc": "wymiana głośnika rozmów",
     "price": 80
   },
   {
+    "id": 81,
     "model": "iPhone 6",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 120
   },
   {
+    "id": 82,
     "model": "iPhone 6",
     "desc": "wymiana przycisków głośności",
     "price": 120
   },
   {
+    "id": 83,
     "model": "iPhone 6",
     "desc": "naprawa przycisku on/off",
     "price": 120
   },
   {
+    "id": 84,
     "model": "iPhone 6",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 85,
     "model": "iPhone 6",
     "desc": "wymiana baterii",
     "price": 120
   },
   {
+    "id": 86,
     "model": "iPhone 6 Plus",
     "desc": "wymiana LCD oryginał",
     "price": 250
   },
   {
+    "id": 87,
     "model": "iPhone 6 Plus",
     "desc": "wymiana LCD zamiennik",
     "price": 200
   },
   {
+    "id": 88,
     "model": "iPhone 6 Plus",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 120
   },
   {
+    "id": 89,
     "model": "iPhone 6 Plus",
     "desc": "wymiana aparatu tylnego",
     "price": 180
   },
   {
+    "id": 90,
     "model": "iPhone 6 Plus",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 100
   },
   {
+    "id": 91,
     "model": "iPhone 6 Plus",
     "desc": "wymiana głośnika rozmów",
     "price": 80
   },
   {
+    "id": 92,
     "model": "iPhone 6 Plus",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 120
   },
   {
+    "id": 93,
     "model": "iPhone 6 Plus",
     "desc": "wymiana przycisków głośności",
     "price": 120
   },
   {
+    "id": 94,
     "model": "iPhone 6 Plus",
     "desc": "naprawa przycisku on/off",
     "price": 120
   },
   {
+    "id": 95,
     "model": "iPhone 6 Plus",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 96,
     "model": "iPhone 6 Plus",
     "desc": "wymiana baterii",
     "price": 140
   },
   {
+    "id": 97,
     "model": "iPhone 6s",
     "desc": "wymiana LCD oryginał",
     "price": 280
   },
   {
+    "id": 98,
     "model": "iPhone 6s",
     "desc": "wymiana LCD zamiennik",
     "price": 200
   },
   {
+    "id": 99,
     "model": "iPhone 6s",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 120
   },
   {
+    "id": 100,
     "model": "iPhone 6s",
     "desc": "wymiana aparatu tylnego",
     "price": 180
   },
   {
+    "id": 101,
     "model": "iPhone 6s",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 100
   },
   {
+    "id": 102,
     "model": "iPhone 6s",
     "desc": "wymiana głośnika rozmów",
     "price": 100
   },
   {
+    "id": 103,
     "model": "iPhone 6s",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 120
   },
   {
+    "id": 104,
     "model": "iPhone 6s",
     "desc": "wymiana przycisków głośności / naprawa przycisku on/off",
     "price": 120
   },
   {
+    "id": 105,
     "model": "iPhone 6s",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 106,
     "model": "iPhone 6s",
     "desc": "wymiana baterii",
     "price": 140
   },
   {
+    "id": 107,
     "model": "iPhone 6s Plus",
     "desc": "wymiana LCD oryginał",
     "price": 320
   },
   {
+    "id": 108,
     "model": "iPhone 6s Plus",
     "desc": "wymiana LCD zamiennik",
     "price": 220
   },
   {
+    "id": 109,
     "model": "iPhone 6s Plus",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 120
   },
   {
+    "id": 110,
     "model": "iPhone 6s Plus",
     "desc": "wymiana aparatu tylnego",
     "price": 250
   },
   {
+    "id": 111,
     "model": "iPhone 6s Plus",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 100
   },
   {
+    "id": 112,
     "model": "iPhone 6s Plus",
     "desc": "wymiana głośnika rozmów",
     "price": 100
   },
   {
+    "id": 113,
     "model": "iPhone 6s Plus",
     "desc": "wymiana głośnika \"buzzer\"",
     "price": 120
   },
   {
+    "id": 114,
     "model": "iPhone 6s Plus",
     "desc": "wymiana przycisków głośności",
     "price": 120
   },
   {
+    "id": 115,
     "model": "iPhone 6s Plus",
     "desc": "naprawa przycisku on/off",
     "price": 120
   },
   {
+    "id": 116,
     "model": "iPhone 6s Plus",
     "desc": "wymiana gniazda ładowania / jack / mikrofonu",
     "price": 120
   },
   {
+    "id": 117,
     "model": "iPhone 6s Plus",
     "desc": "wymiana baterii",
     "price": 150
   },
   {
+    "id": 118,
     "model": "iPhone 7",
     "desc": "wymiana LCD oryginał",
     "price": 350
   },
   {
+    "id": 119,
     "model": "iPhone 7",
     "desc": "wymiana LCD zamiennik",
     "price": 220
   },
   {
+    "id": 120,
     "model": "iPhone 7",
     "desc": "wymiana baterii",
     "price": 140
   },
   {
+    "id": 121,
     "model": "iPhone 7",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 150
   },
   {
+    "id": 122,
     "model": "iPhone 7",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 180
   },
   {
+    "id": 123,
     "model": "iPhone 7 Plus",
     "desc": "wymiana LCD oryginał",
     "price": 380
   },
   {
+    "id": 124,
     "model": "iPhone 7 Plus",
     "desc": "wymiana LCD zamiennik",
     "price": 250
   },
   {
+    "id": 125,
     "model": "iPhone 7 Plus",
     "desc": "wymiana baterii",
     "price": 160
   },
   {
+    "id": 126,
     "model": "iPhone 7 Plus",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 150
   },
   {
+    "id": 127,
     "model": "iPhone 7 Plus",
     "desc": "wymiana aparatu tylnego",
     "price": 350
   },
   {
+    "id": 128,
     "model": "iPhone 7 Plus",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 160
   },
   {
+    "id": 129,
     "model": "iPhone 7 Plus",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 180
   },
   {
+    "id": 130,
     "model": "iPhone 7 Plus",
     "desc": "wymiana głośnika rozmów",
     "price": 100
   },
   {
+    "id": 131,
     "model": "iPhone 7 Plus",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 180
   },
   {
+    "id": 132,
     "model": "iPhone 8",
     "desc": "wymiana LCD oryginał",
     "price": 380
   },
   {
+    "id": 133,
     "model": "iPhone 8",
     "desc": "wymiana LCD zamiennik",
     "price": 250
   },
   {
+    "id": 134,
     "model": "iPhone 8",
     "desc": "wymiana baterii",
     "price": 160
   },
   {
+    "id": 135,
     "model": "iPhone 8",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 150
   },
   {
+    "id": 136,
     "model": "iPhone 8",
     "desc": "wymiana aparatu tylnego",
     "price": 350
   },
   {
+    "id": 137,
     "model": "iPhone 8",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 180
   },
   {
+    "id": 138,
     "model": "iPhone 8",
     "desc": "wymiana głośnika rozmów",
     "price": 100
   },
   {
+    "id": 139,
     "model": "iPhone 8",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 150
   },
   {
+    "id": 140,
     "model": "iPhone 8",
     "desc": "wymiana tylnego panelu",
     "price": 400
   },
   {
+    "id": 141,
     "model": "iPhone 8 Plus",
     "desc": "wymiana LCD oryginał",
     "price": 450
   },
   {
+    "id": 142,
     "model": "iPhone 8 Plus",
     "desc": "wymiana LCD zamiennik",
     "price": 250
   },
   {
+    "id": 143,
     "model": "iPhone 8 Plus",
     "desc": "wymiana baterii",
     "price": 160
   },
   {
+    "id": 144,
     "model": "iPhone 8 Plus",
     "desc": "wymiana aparatu przedniego / czujnika zbliżeniowego",
     "price": 150
   },
   {
+    "id": 145,
     "model": "iPhone 8 Plus",
     "desc": "wymiana aparatu tylnego",
     "price": 450
   },
   {
+    "id": 146,
     "model": "iPhone 8 Plus",
     "desc": "wymiana przycisku \"HOME\"",
     "price": 180
   },
   {
+    "id": 147,
     "model": "iPhone 8 Plus",
     "desc": "wymiana głośnika rozmów",
     "price": 120
   },
   {
+    "id": 148,
     "model": "iPhone 8 Plus",
     "desc": "wymiana gniazda ładowania / mikrofonu",
     "price": 180
   },
   {
+    "id": 149,
     "model": "iPhone 8 Plus",
     "desc": "wymiana tylnego panelu",
     "price": 400
