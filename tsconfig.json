@@ -1,8 +1,7 @@
 {
-  "extends": "astro/tsconfigs/base",
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2021"],
-    "strict": true,
     "types": ["@astrojs/image/client", "node"],
     "allowJs": true,
     "baseUrl": ".",
