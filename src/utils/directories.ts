@@ -15,11 +15,6 @@ export const getProjectRootDir = () => {
 const __srcFolder = path.join(getProjectRootDir(), '/src')
 
 /** */
-export const getRelativeUrlByFilePath = (filepath) => {
-  if (filepath) {
-    console.log(filepath)
+export const getRelativeUrlByFilePath = (filepath: string) => {
     return filepath.replace(__srcFolder, '')
-  }
-
-  return null
 }
