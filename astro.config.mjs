@@ -7,12 +7,11 @@ import tailwind from '@astrojs/tailwind'
 import image from '@astrojs/image'
 import partytown from '@astrojs/partytown'
 import preact from '@astrojs/preact'
-import { SITE } from './src/config.mjs'
+import { SITE } from './src/config'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const __site = import.meta.env.PROD ? 'https://ihave.gsm.pl' : SITE.origin
 
 export default defineConfig({
-  site: __site,
+  site: process.env.APP_URL ?? SITE.origin,
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
   output: 'static',

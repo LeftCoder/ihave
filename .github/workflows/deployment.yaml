@@ -45,7 +45,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 🔨 Build Project
-        run: npm run build
+        run: APP_URL=https://ihave.gsm.pl npm run build
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
