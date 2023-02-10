@@ -16,5 +16,5 @@ const __srcFolder = path.join(getProjectRootDir(), '/src')
 
 /** */
 export const getRelativeUrlByFilePath = (filepath: string) => {
-    return filepath.replace(__srcFolder, '')
+  return filepath.replace(__srcFolder, '')
 }
