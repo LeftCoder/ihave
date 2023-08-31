@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@astrojs/preact": "^3.0.0",
-    "preact": "^10.17.1"
+    "preact": "^10.17.1",
+    "sharp": "^0.32.5"
   }
 }
