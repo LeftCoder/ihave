@@ -17,7 +17,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: 18
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -60,7 +60,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: 18
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
