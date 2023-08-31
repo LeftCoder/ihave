@@ -1,39 +1,19 @@
 ---
+import '@fontsource/inter'
 import { AstroSeo } from '@astrolib/seo'
 import { GoogleAnalytics } from '@astrolib/analytics'
-import { getImage } from '@astrojs/image'
-import { getRelativeUrlByFilePath } from '~/utils/directories'
-
-import defaultImageSrc from '~/assets/images/og-image.png'
-
 import { SITE } from '~/config'
-import Fonts from '~/components/core/Fonts.astro'
-import ExtraMetaTags from '~/components/core/ExtraMetaTags.astro'
 
-const { src: defaultImage } = await getImage({
-  src: defaultImageSrc,
-  width: 1200,
-  height: 628,
-  alt: 'Sekcja tytułowa strony ihave serwis.'
-})
 
 const {
-  title = SITE.name,
-  description = '',
-  image: _image = defaultImage,
+  title,
+  description,
   canonical,
   noindex = false,
   nofollow = false,
-  ogTitle = title,
+  ogTitle = SITE.name,
   ogType = 'website',
 } = Astro.props
-
-const image =
-  typeof _image === 'string'
-    ? new URL(_image, Astro.site)
-    : _image && typeof _image['src'] !== 'undefined'
-    ? new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
-    : null
 ---
 
 <meta charset="UTF-8" />
@@ -50,25 +30,9 @@ const image =
     title: ogTitle,
     description: description,
     type: ogType,
-    images: image
-      ? [
-          {
-            url: image.toString(),
-            alt: ogTitle,
-          },
-        ]
-      : undefined,
-    // site_name: 'SiteName',
-  }}
-  twitter={{
-    // handle: '@handle',
-    // site: '@site',
-    cardType: image ? 'summary_large_image' : undefined,
+    images: [{ url: `${SITE.basePathname}og-image.png` }]
   }}
 />
-
-<Fonts />
-
 <!-- Google Site Verification -->
 {
   SITE.googleSiteVerificationId && (
@@ -86,4 +50,8 @@ const image =
   )
 }
 
-<ExtraMetaTags />
+<link
+  rel="shortcut icon"
+  type="image/png"
+  href={`${SITE.basePathname}favicon.png`}
+/>

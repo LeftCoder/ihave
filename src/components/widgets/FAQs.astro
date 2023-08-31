@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon'
-import Picture from '~/components/core/Picture.astro'
+import { Image } from 'astro:assets'
+import iphone from '~/assets/images/iphone-3.jpg'
 
 const items = [
   [
@@ -23,13 +24,13 @@ const items = [
 <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-32 max-w-6xl">
   <div class="grid gap-6 row-gap-10 md:grid-cols-2">
     <div class="relative">
-      <Picture
+      <Image
         class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-        src={import('~/assets/images/iphone-3.jpg')}
-        widths={[400, 768]}
+        src={iphone}
+        width={432}
+        height={768}
         sizes="(max-width: 768px) 100vw, 432px"
         alt="iPhone 2"
-        aspectRatio="432:768"
       />
     </div>
     <div class="flex">

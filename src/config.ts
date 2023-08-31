@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'iHave Serwis',
 
-  origin: 'http://127.0.0.1:3000',
+  origin: 'http://127.0.0.1:4321',
   basePathname: '/',
   trailingSlash: false,
 

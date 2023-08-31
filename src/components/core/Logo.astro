@@ -1,11 +1,12 @@
 ---
-import Picture from '~/components/core/Picture.astro'
+import image from '~/assets/images/logo.png'
+import { Image }from 'astro:assets'
 ---
 
-<Picture
-  src={import('~/assets/images/logo.png')}
-  widths={[145, 41]}
+<Image
+  class="dark:invert dark:brightness-0"
+  src={image}
+  width={145}
+  height={41}
   alt="Logo"
-  aspectRatio="145:41"
-  className="dark:invert dark:brightness-0"
 />

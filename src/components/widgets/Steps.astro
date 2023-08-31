@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon'
-import Picture from '~/components/core/Picture.astro'
+import { Image } from 'astro:assets'
+import iphone from '~/assets/images/iphone-1.jpg'
 ---
 
 <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl">
@@ -104,13 +105,13 @@ import Picture from '~/components/core/Picture.astro'
       </div>
     </div>
     <div class="relative">
-      <Picture
+      <Image
         class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-        src={import('~/assets/images/iphone-1.jpg')}
-        widths={[400, 768]}
+        src={iphone}
+        width={432}
+        height={768}
         sizes="(max-width: 768px) 100vw, 432px"
         alt="iPhone"
-        aspectRatio="432:768"
       />
     </div>
   </div>
