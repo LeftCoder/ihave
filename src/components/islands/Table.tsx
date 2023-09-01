@@ -17,15 +17,15 @@ const Table: FunctionalComponent = () => {
       <div className="mb-12">
         <label
           for="default-search"
-          className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+          className="sr-only mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
           Pole wyszykiwania
         </label>
         <div className="relative">
-          <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
             <svg
               aria-hidden="true"
-              className="w-5 h-5 text-gray-500 dark:text-gray-400"
+              className="h-5 w-5 text-gray-500 dark:text-gray-400"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -45,24 +45,24 @@ const Table: FunctionalComponent = () => {
             type="search"
             name="search"
             id="default-search"
-            className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
             placeholder="Wpisz model telefonu lub szukaną usterkę..."
           />
         </div>
       </div>
       <div className="mb-24">
         {filteredPositions.length > 0 ? (
-          <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
-            <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-              <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table className="w-full text-left text-sm text-gray-500 dark:text-gray-400">
+              <thead className="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" className="py-3 px-6">
+                  <th scope="col" className="px-6 py-3">
                     Model telefonu
                   </th>
-                  <th scope="col" className="py-3 px-6">
+                  <th scope="col" className="px-6 py-3">
                     Opis usługi
                   </th>
-                  <th scope="col" className="py-3 px-6">
+                  <th scope="col" className="px-6 py-3">
                     Cena
                   </th>
                 </tr>
@@ -71,23 +71,23 @@ const Table: FunctionalComponent = () => {
                 {filteredPositions.map((position) => (
                   <tr
                     key={position.id}
-                    className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                    className="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-600"
                   >
                     <th
                       scope="row"
-                      className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      className="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
                     >
                       {position.model}
                     </th>
-                    <td className="py-4 px-6">{position.desc}</td>
-                    <td className="py-4 px-6">{position.price} zł</td>
+                    <td className="px-6 py-4">{position.desc}</td>
+                    <td className="px-6 py-4">{position.price} zł</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         ) : (
-          <div className="shadow-md sm:rounded-lg bg-white dark:bg-gray-800 text-center p-4">
+          <div className="bg-white p-4 text-center shadow-md dark:bg-gray-800 sm:rounded-lg">
             Brak pozycji do wyświetlenia
           </div>
         )}

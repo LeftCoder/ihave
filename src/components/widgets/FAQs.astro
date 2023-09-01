@@ -21,19 +21,19 @@ const items = [
 ]
 ---
 
-<section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-32 max-w-6xl">
-  <div class="grid gap-6 row-gap-10 md:grid-cols-2">
+<section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-32">
+  <div class="row-gap-10 grid gap-6 md:grid-cols-2">
     <div class="relative">
       <Image
-        class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
+        class="inset-0 w-full rounded-md bg-gray-400 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
         src={iphone}
         alt="iPhone 2"
       />
     </div>
     <div class="flex">
-      <div class="flex flex-col items-center mr-4">
+      <div class="mr-4 flex flex-col items-center">
         <div class="md:pb-6 md:pr-16">
-          <h2 class="mb-8 text-3xl lg:text-4xl font-bold font-heading">FAQ</h2>
+          <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl">FAQ</h2>
           <div>
             {
               items.map((subitems) => (
@@ -43,13 +43,13 @@ const items = [
                       <p class="mb-4 text-xl font-bold">
                         <Icon
                           name="tabler:arrow-down-right"
-                          class="w-7 h-7 text-primary-500 inline-block icon-bold"
+                          class="icon-bold inline-block h-7 w-7 text-primary-500"
                         />
                         {question}
                       </p>
                       {answer.split('\n\n').map((paragraph) => (
                         <p
-                          class="text-gray-700 dark:text-gray-400 mb-2"
+                          class="mb-2 text-gray-700 dark:text-gray-400"
                           set:html={paragraph}
                         />
                       ))}
