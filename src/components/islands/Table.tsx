@@ -1,6 +1,6 @@
 import type { FunctionalComponent } from 'preact'
 import { useState } from 'preact/hooks'
-import TableRows from '~/cennik.json'
+import TableRows from '~/../public/cennik.json'
 
 const Table: FunctionalComponent = () => {
   const [search, setSearch] = useState('')
